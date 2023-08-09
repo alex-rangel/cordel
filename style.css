@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1{
+    margin-bottom: 5px;
+    font-size: 10vw;
+}
+
+header p{
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+main p{
+    margin-left: 20px;
+    line-height: 1.5em;
+    font-size: 4vw;
+}
+
+main .texto{
+    background-color: white;
+    padding: 15% 0;
+}
+
+main .imagem{
+    padding: 20% 0;
+}
+
+main .imagem p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: white;
+}
+
+main #img1{
+    background-image:url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main #img2{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
